@@ -1,0 +1,31 @@
+﻿<Window x:Class="CalculadoraMariajooseSosa_23AM.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CalculadoraMariajooseSosa_23AM"
+        mc:Ignorable="d"
+        Title="Calculadora" Height="307" Width="280" MaxHeight = "307" MaxWidth="280" ResizeMode="NoResize">
+    <Grid Background="black">
+        <TextBox Background="#FFFDE800" Margin="16,19,18,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="38"/>
+        <Button Content="7" HorizontalAlignment="Left" Margin="10,122,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="8" HorizontalAlignment="Left" Margin="75,122,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="9" HorizontalAlignment="Left" Margin="140,122,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="6" HorizontalAlignment="Left" Margin="140,163,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="5" HorizontalAlignment="Left" Margin="75,163,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="4" HorizontalAlignment="Left" Margin="10,163,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="3" HorizontalAlignment="Left" Margin="140,204,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="2" HorizontalAlignment="Left" Margin="75,204,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="1" HorizontalAlignment="Left" Margin="10,204,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="0" HorizontalAlignment="Left" Margin="10,245,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="." HorizontalAlignment="Left" Margin="75,245,0,0" VerticalAlignment="Top" Width="60" Height="36" FontWeight="Bold"/>
+        <Button Content="%" HorizontalAlignment="Left" Margin="75,81,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918" FontStyle="Italic" FontWeight="Bold" FontSize="16"/>
+        <Button Content="C" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918" FontSize="18" FontWeight="Bold"/>
+        <Button Content="÷" HorizontalAlignment="Left" Margin="140,81,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="*" HorizontalAlignment="Left" Margin="208,123,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="-" HorizontalAlignment="Left" Margin="208,164,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918" FontWeight="Bold" FontStyle="Italic" FontSize="16"/>
+        <Button Content="+" HorizontalAlignment="Left" Margin="208,204,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918" FontSize="16" FontWeight="Bold" FontStyle="Italic"/>
+        <Button Content="=" HorizontalAlignment="Left" Margin="140,245,0,0" VerticalAlignment="Top" Width="128" Height="36" Background="#FFF56918" FontWeight="Bold" FontSize="22"/>
+        <Button Content="" HorizontalAlignment="Left" Margin="208,82,0,0" VerticalAlignment="Top" Width="60" Height="36" Background="Black" Foreground="#FFF56918"/>
+    </Grid>
+</Window>
